@@ -23,12 +23,7 @@ def compute_metrics(model_name: str,
   Returns:
     metrics_df: pd.DataFrame - a DataFrame containing the computed metrics.
   """
-  metrics_dict = {'model' : [model_name],
-                   'dataset' : [dataset_type],
-                   'mse' : [mean_squared_error(y_real, y_pred)],
-                   'mae' : [mean_absolute_error(y_real, y_pred)],
-                   'mape' : [mean_absolute_percentage_error(y_real, y_pred)]
-                  }
+  metrics_dict = {'model' : [model_name], 'dataset' : [dataset_type]}
   for metric_name, function_metric in dict_metric_functions.items():
     metrics_dict[metric_name] = [function_metric(y_real, y_pred)]
   metrics_df = pd.DataFrame.from_dict(metrics_dict)
