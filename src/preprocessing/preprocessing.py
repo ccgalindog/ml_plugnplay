@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import Any
 import numpy as np
-import pickle
+from io.output import export_files
 
 
 class Preprocessor:
@@ -128,11 +128,9 @@ class Preprocessor:
 
   def export_artifacts(self):
     """
-    Use pickle to export the scaler object to the artifacts folder.
+    Use pickle to export the artifact objects to the artifacts folder.
     """
-    for artifact_name, artifact in self.artifacts.items():
-      with open(f'artifacts/{artifact_name}.pkl', 'wb') as f:
-        pickle.dump(artifact, f)
+    export_files('artifacts', self.artifacts)
 
   def preprocess(self):
     """
