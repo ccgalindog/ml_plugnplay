@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import Any
-import numpy as np
-from io.output import export_files
+from src.io.output import export_files
+from src.utils.math import get_default_math_functions
 
 
 class Preprocessor:
@@ -84,12 +84,7 @@ class Preprocessor:
     over all the original features. Each new feature will have a name
     given by the function name and the original feature name.
     """
-    list_functions = [np.log, np.log10, np.sqrt, np.square,
-                      np.arcsin, np.arccos, np.arctan,
-                      np.sin, np.cos, np.tan, np.sinc]
-    list_functions_names = ['log', 'log10', 'sqrt', 'square',
-                            'arcsin', 'arccos', 'arctan',
-                            'sin', 'cos', 'tan', 'sinc']
+    list_functions, list_functions_names = get_default_math_functions()
     features_to_include = []
     for function, function_name in zip(list_functions, list_functions_names):
       #print(f'Creating {function_name} feature')
