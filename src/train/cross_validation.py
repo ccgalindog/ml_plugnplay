@@ -1,6 +1,8 @@
 import pandas as pd
 from typing import Any, Dict, List, Tuple
 from src.pipelines.training_pipelines import StandardTrainerPipeline
+import logging
+logger = logging.getLogger(__name__)
 
 
 def cross_validate(df: pd.DataFrame,
@@ -31,14 +33,15 @@ def cross_validate(df: pd.DataFrame,
       each model and fold.
     all_models: Dict - Dictionary containing the trained models for each fold.
   """
-  # TODO: Make load artifacts general
+  logger.info('Starting cross-validation')
+
   metrics_df = pd.DataFrame()
   all_models = {}
 
   for k_fold in range(num_folds):
     # For each fold, create a new train-validation split
     # Then fit the preprocessor steps to the train part and apply to val part
-    print(f'Fold {k_fold}')
+    logger.info(f'Running Fold {k_fold}')
 
     training_pipeline = StandardTrainerPipeline(df.copy(),
                                                 numerical_features,
@@ -59,5 +62,7 @@ def cross_validate(df: pd.DataFrame,
     fold_metrics['k_fold'] = k_fold
     metrics_df = pd.concat([metrics_df, fold_metrics], axis=0)
     all_models[k_fold] = fitted_models
+  
+  logger.info('Completed cross-validation')
 
   return metrics_df, all_models

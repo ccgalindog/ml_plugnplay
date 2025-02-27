@@ -3,6 +3,8 @@ from sklearn.model_selection import train_test_split
 from src.preprocessing.preprocessing import Preprocessor
 from src.io.input import load_artifacts
 from src.train.training import train_multiple_models
+import logging
+logger = logging.getLogger(__name__)
 
 
 class StandardTrainerPipeline:
@@ -33,10 +35,13 @@ class StandardTrainerPipeline:
         self.test_size = test_size
 
     def split_train_val(self):
+        logger.info('Splitting data into train and validation sets')
         self.df_train, self.df_val = train_test_split(self.df,
                                                       test_size=self.test_size)
+        logger.info('Completed data split')
 
     def preprocess_data(self):
+        logger.info('Starting data preprocessing')
         self.train_pipeline = Preprocessor(
                                     self.df_train,
                                     'train',
@@ -48,9 +53,8 @@ class StandardTrainerPipeline:
                                     )
         self.df_train_preproc = self.train_pipeline.preprocess()
 
-        # Load generated artifacts
         self.artifacts = load_artifacts('../../artifacts/')
-        # Apply same preprocess logic to validation set
+
         self.validation_pipeline = Preprocessor(
                                     self.df_val,
                                     'val',
@@ -61,8 +65,10 @@ class StandardTrainerPipeline:
                                     artifacts=self.artifacts
                                     )
         self.df_val_preproc = self.validation_pipeline.preprocess()
+        logger.info('Completed data preprocessing')
     
     def train_models(self):
+        logger.info('Starting model training')
         self.metrics_df, self.fitted_models = train_multiple_models(
                                                     self.df_train_preproc,
                                                     self.df_val_preproc,
@@ -71,8 +77,11 @@ class StandardTrainerPipeline:
                                                     self.target_column,
                                                     self.metrics_config
                                                     )
+        logger.info('Completed model training')
 
     def run(self):
+        logger.info('Starting training pipeline')
         self.split_train_val()
         self.preprocess_data()
         self.train_models()
+        logger.info('Completed training pipeline')

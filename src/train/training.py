@@ -1,6 +1,8 @@
 from typing import Any, Tuple, List, Dict
 import pandas as pd
 from src.metrics.metrics import compute_metrics
+import logging
+logger = logging.getLogger(__name__)
 
 
 def fit_model(model: Any,
@@ -23,6 +25,7 @@ def fit_model(model: Any,
     metrics_df: pd.DataFrame - a DataFrame containing the computed metrics.
 
   """
+  logger.info(f'Fitting model {model_name}')
   model.fit(train_data.drop(target, axis=1), train_data[target])
   y_train_pred = model.predict(train_data.drop(target, axis=1))
   y_val_pred = model.predict(validation_data.drop(target, axis=1))
@@ -37,6 +40,8 @@ def fit_model(model: Any,
                                 validation_data[target],
                                 y_val_pred,
                                 dict_metric_functions)
+  logger.info(f'Model {model_name} fitted')
+  logger.info(f'Model metrics: {metrics_val.iloc[0].to_dict()}')
   return model, pd.concat([metrics_train, metrics_val])
 
 def train_multiple_models(df_train_preproc: pd.DataFrame,
@@ -59,6 +64,7 @@ def train_multiple_models(df_train_preproc: pd.DataFrame,
       each model.
     fitted_models: Dict - Dictionary containing the trained models.
   """
+  logger.info('Training models')
   metrics_df = pd.DataFrame()
   fitted_models = {}
   for model, model_name in zip(list_models, list_model_names):
@@ -71,4 +77,5 @@ def train_multiple_models(df_train_preproc: pd.DataFrame,
                                           )
     metrics_df = pd.concat([metrics_df, model_metrics], axis=0)
     fitted_models[model_name] = fitted_model
+  logger.info('Completed model training')
   return metrics_df, fitted_models

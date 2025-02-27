@@ -2,6 +2,8 @@ import pandas as pd
 from typing import Any
 from src.io.output import export_files
 from src.utils.math import get_default_math_functions
+import logging
+logger = logging.getLogger(__name__)
 
 
 class Preprocessor:
@@ -54,6 +56,7 @@ class Preprocessor:
     self.oh_encoder = self.artifacts.get('oh_encoder', None)
     self.features_selected = self.artifacts.get('features_selected', None)
 
+
   def scale_features(self):
     """
     Scale the features of the DataFrame using the provided scaler.
@@ -62,10 +65,14 @@ class Preprocessor:
     fitted weights.
     """
     if self.execution_mode == 'train':
+      logger.info('Fitting numerical scaler')
       self.scaler.fit(self.df[self.numerical_features])
       self.artifacts['scaler'] = self.scaler
+    logger.info('Scaling numerical features')
     scaled_features = self.scaler.transform(self.df[self.numerical_features])
     self.df.loc[:, self.df.columns != self.target] = scaled_features
+    logger.info('Completed scaling numerical features')
+
 
   def one_hot_encode(self):
     """
@@ -75,12 +82,19 @@ class Preprocessor:
     fitted weights.
     """
     if self.execution_mode == 'train':
+      logger.info('Fitting one-hot encoder')
       self.oh_encoder.fit(self.df[self.categorical_features])
       self.artifacts['oh_encoder'] = self.oh_encoder
+    logger.info('One-hot encoding categorical features')
     encoded_features = self.oh_encoder.transform(self.df\
                                                  [self.categorical_features])
     self.df = self.df.drop(self.categorical_features, axis=1)
     self.df = pd.concat([self.df, encoded_features], axis=1)
+    logger.info('Completed one-hot encoding categorical features')
+    logger.info('New number of features: %d',
+                len(self.numerical_features + self.categorical_features)
+                )
+
 
   def create_individual_features(self):
     """
@@ -88,16 +102,22 @@ class Preprocessor:
     over all the original features. Each new feature will have a name
     given by the function name and the original feature name.
     """
+    logger.info('Creating individual numerical features')
     list_functions, list_functions_names = get_default_math_functions()
     features_to_include = []
     for function, function_name in zip(list_functions, list_functions_names):
-      #print(f'Creating {function_name} feature')
+      logger.info(f'Creating {function_name} feature')
       for each_column in self.numerical_features:
         new_column = function_name + '_' + each_column
         self.df[new_column] = function(self.df[each_column])
         self.df[new_column] = self.df[new_column].fillna(0.0)
         features_to_include.append(new_column)
     self.numerical_features.extend(features_to_include)
+    logger.info('Completed creating individual numerical features')
+    logger.info('New number of features: %d',
+                len(self.numerical_features + self.categorical_features)
+                )
+
 
   def create_combinated_features(self):
     """
@@ -106,11 +126,12 @@ class Preprocessor:
     features, for each combination of features x1 and x2 are: x1*x2, x1/x2 and
     x1%x2. The names of the new features will be given by x1_{name operation}_x2
     """
+    logger.info('Creating combinated numerical features')
     features_to_include = []
     for feature_a in self.numerical_features:
       for feature_b in self.numerical_features:
         if feature_a != feature_b:
-          #print(f'Creating features from {feature_a}-{feature_b} interactions')
+          logger.info(f'Creating features {feature_a}-{feature_b} interactions')
           new_column_1 = feature_a + '_prod_' + feature_b
           new_column_2 = feature_a + '_div_' + feature_b
           new_column_3 = feature_a + '_reminder_' + feature_b
@@ -124,6 +145,11 @@ class Preprocessor:
           self.df[new_column_3] = self.df[new_column_3].fillna(0.0)
           features_to_include.extend([new_column_1, new_column_2, new_column_3])
     self.numerical_features.extend(features_to_include)
+    logger.info('Completed creating combinated numerical features')
+    logger.info('New number of features: %d',
+                len(self.numerical_features + self.categorical_features)
+                )
+
 
   def feature_selection(self):
     """
@@ -131,6 +157,7 @@ class Preprocessor:
     provided, all the features will be used.
     """
     # TODO: Implement automatic feature selection methods
+    logger.info('Selecting features')
     if self.features_selected is not None and self.execution_mode != 'test':
       self.df = self.df[self.features_selected + [self.target]]
     elif self.features_selected is not None and self.execution_mode == 'test':
@@ -139,12 +166,20 @@ class Preprocessor:
                                if x in self.df.columns]
     self.categorical_features = [x for x in self.categorical_features\
                                  if x in self.df.columns]
+    logger.info('Completed selecting features')
+    logger.info('New number of features: %d',
+                len(self.numerical_features + self.categorical_features)
+                )
+
 
   def export_artifacts(self):
     """
     Use pickle to export the artifact objects to the artifacts folder.
     """
+    logger.info('Exporting artifacts')
     export_files('../../artifacts', self.artifacts)
+    logger.info('Completed exporting artifacts')
+
 
   def preprocess(self):
     """
@@ -152,6 +187,10 @@ class Preprocessor:
     Returns:
       self.df: pd.DataFrame - Pandas DataFrame with the preprocessed data.
     """
+    logger.info('Starting data preprocessing')
+    logger.info('Initial number of features: %d',
+                len(self.numerical_features + self.categorical_features)
+                )
     if 'combinated_num' in self.graph_preprocess:
       self.create_combinated_features()
     if 'individual_num' in self.graph_preprocess:
@@ -164,4 +203,9 @@ class Preprocessor:
     self.feature_selection()
     if self.execution_mode == 'train':
       self.export_artifacts()
+
+    logger.info('Completed data preprocessing')
+    logger.info('Final number of features: %d',
+                len(self.numerical_features + self.categorical_features)
+                )
     return self.df

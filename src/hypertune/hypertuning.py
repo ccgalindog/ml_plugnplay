@@ -1,9 +1,21 @@
-from lightgbm import LGBMRegressor
+import pandas as pd
 from hyperopt import STATUS_OK, Trials, fmin, hp, tpe
+from functools import partial
 from src.train.training import fit_model
+from typing import Any
+import logging
+logger = logging.getLogger(__name__)
 
 
-def objective_score(search_space):
+def objective_score(search_space: dict,
+                    loss_metric: str,
+                    model2tune: Any,
+                    model_name: str,
+                    df_trainset: pd.DataFrame,
+                    df_valset: pd.DataFrame,
+                    target_column: str,
+                    metrics_config: dict
+                   ) -> dict:
   """
   Objective function to optimize, it returns the value of the loss function
   for some specific model iteration on some hyperparameters combination.
@@ -13,30 +25,66 @@ def objective_score(search_space):
     loss - Value of the loss function for the given hyperparameters
     status - Status object indicating that the iteration went smoothly
   """
-  # TODO: Make objects come from args
-  print(search_space)
-  try:
-    model = LGBMRegressor(n_estimators=search_space['n_estimators'],
-                          class_weight=search_space['class_weight'],
-                          max_depth=int(search_space['max_depth']),
-                          num_leaves=int(search_space['num_leaves']),
-                          colsample_bytree=search_space['colsample_bytree'],
-                          boosting_type=search_space['boosting_type'],
-                          reg_alpha=search_space['reg_alpha'],
-                          reg_lambda=search_space['reg_lambda'],
-                          learning_rate=search_space['learning_rate'],
-                          verbosity=-1
-                        )
-    fitted_model, model_metrics = fit_model(model,
-                                            model_name,
-                                            df_train_preproc[top_k_features + ['target']],
-                                            df_val_preproc[top_k_features + ['target']]
-                                          )
+  model = model2tune(**search_space)
     
-    test_mse = float(model_metrics[model_metrics['dataset']=='validation']['mse'])
-    test_mae = float(model_metrics[model_metrics['dataset']=='validation']['mae'])
-    test_mape = float(model_metrics[model_metrics['dataset']=='validation']['mape'])
-    print(f'mse: {test_mse} - mae: {test_mae} - mape: {test_mape}')
-  except:
-    test_mse = 10000000
-  return {'loss': test_mse, 'status': STATUS_OK }
+  fitted_model, model_metrics = fit_model(model,
+                                          model_name,
+                                          df_trainset,
+                                          df_valset,
+                                          target_column,
+                                          metrics_config
+                                        )
+  val_metrics = model_metrics[model_metrics['dataset']=='validation']\
+                                    .drop(columns=['dataset', 'model'])\
+                                    .iloc[0].to_dict()
+  print(val_metrics)
+  logger.info('Model metrics: {}'.format(val_metrics))
+  iter_score = model_metrics\
+                      [model_metrics['dataset']=='validation'][loss_metric]
+  return {'loss': iter_score, 'status': STATUS_OK}
+
+
+def hyperparameter_tunning(search_space: dict,
+                           max_iterations: int,
+                           loss_metric: str,
+                           model2tune: Any,
+                           model_name: str,
+                           df_train_preproc: pd.DataFrame,
+                           df_val_preproc: pd.DataFrame,
+                           target_column: str,
+                           metrics_config: dict,
+                           objective_function: Any
+                          ) -> dict:
+  """
+  Function to perform hyperparameter tunning using the hyperopt library.
+  Args:
+    search_space - Grid of hyperparameters where the search will be performed
+    loss_metric - Metric to optimize
+    model2tune - Model to tune
+    model_name - Name of the model
+    df_train_preproc - Preprocessed training dataset
+    df_val_preproc - Preprocessed validation dataset
+    target_column - Target column
+    metrics_config - Configuration of the metrics to evaluate the model
+  Returns:
+    best_hyperparams - Best hyperparameters found during the search
+  """
+  logger.info('Starting hyperparameter tunning')
+  trials = Trials()
+  best_hyperparams = fmin(fn=partial(objective_function,
+                                     loss_metric=loss_metric,
+                                     model2tune=model2tune,
+                                     model_name=model_name,
+                                     df_trainset=df_train_preproc,
+                                     df_valset=df_val_preproc,
+                                     target_column=target_column,
+                                     metrics_config=metrics_config
+                                    ),
+                          space=search_space,
+                          algo=tpe.suggest,
+                          max_evals=max_iterations,
+                          trials=trials
+                        )
+  logger.info('Best trial: {}'.format(trials.best_trial))
+  logger.info('Completed hyperparameter tunning')
+  return best_hyperparams, trials
