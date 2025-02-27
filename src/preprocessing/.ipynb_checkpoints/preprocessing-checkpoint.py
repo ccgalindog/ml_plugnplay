@@ -16,13 +16,16 @@ class Preprocessor:
                categorical_features: list,
                target_column: str,
                graph_preprocess: list,
-               artifacts: dict={}):
+               scaler: Any=None,
+               oh_encoder: Any=None):
     """
     Preprocessor constructor.
     Args:
       df: pd.DataFrame - Pandas DataFrame with the data to be preprocessed.
       execution_mode: str - Flag that defines the type of execution, either
         'train', 'validation' or 'test'.
+      scaler: Any - Scaler object from sklearn.
+      oh_encoder: Any - One-hot encoder object from sklearn.
       numerical_features: list - List with the names of the numerical features
         in the DataFrame.
       categorical_features: list - List with the names of the categorical
@@ -36,24 +39,17 @@ class Preprocessor:
             functions to the numerical features.
           - 'combinated_num': Create new features by applying mathematical
             operations over each pair of numerical features.
-      artifacts: dict - Dictionary to store the artifacts generated during the
-        preprocessing. Some possible artifacts are:
-          - 'scaler': The Sklearn scaler object.
-          - 'oh_encoder': The Sklearn one-hot encoder object.
-          - 'features_selected': The list of features selected for training. If
-            not provided, all the features will be used.
     """
     self.df = df.copy()
     self.execution_mode = execution_mode
-    self.graph_preprocess = graph_preprocess.copy()
-    self.numerical_features = numerical_features.copy()
-    self.categorical_features = categorical_features.copy()
+    self.graph_preprocess = graph_preprocess
+    self.scaler = scaler
+    self.oh_encoder = oh_encoder
+    self.numerical_features = numerical_features
+    self.categorical_features = categorical_features
     self.target = target_column
-    self.artifacts = artifacts
-    self.scaler = self.artifacts.get('scaler', None)
-    self.oh_encoder = self.artifacts.get('oh_encoder', None)
-    self.features_selected = self.artifacts.get('features_selected', None)
-
+    self.artifacts = {}
+  
   def scale_features(self):
     """
     Scale the features of the DataFrame using the provided scaler.
@@ -63,9 +59,9 @@ class Preprocessor:
     """
     if self.execution_mode == 'train':
       self.scaler.fit(self.df[self.numerical_features])
-      self.artifacts['scaler'] = self.scaler
     scaled_features = self.scaler.transform(self.df[self.numerical_features])
     self.df.loc[:, self.df.columns != self.target] = scaled_features
+    self.artifacts['scaler'] = self.scaler
 
   def one_hot_encode(self):
     """
@@ -76,11 +72,11 @@ class Preprocessor:
     """
     if self.execution_mode == 'train':
       self.oh_encoder.fit(self.df[self.categorical_features])
-      self.artifacts['oh_encoder'] = self.oh_encoder
     encoded_features = self.oh_encoder.transform(self.df\
                                                  [self.categorical_features])
     self.df = self.df.drop(self.categorical_features, axis=1)
     self.df = pd.concat([self.df, encoded_features], axis=1)
+    self.artifacts['oh_encoder'] = self.oh_encoder
 
   def create_individual_features(self):
     """
@@ -125,21 +121,6 @@ class Preprocessor:
           features_to_include.extend([new_column_1, new_column_2, new_column_3])
     self.numerical_features.extend(features_to_include)
 
-  def feature_selection(self):
-    """
-    Select the features to be used in the training process. If no features are
-    provided, all the features will be used.
-    """
-    # TODO: Implement automatic feature selection methods
-    if self.features_selected is not None and self.execution_mode != 'test':
-      self.df = self.df[self.features_selected + [self.target]]
-    elif self.features_selected is not None and self.execution_mode == 'test':
-      self.df = self.df[self.features_selected]
-    self.numerical_features = [x for x in self.numerical_features\
-                               if x in self.df.columns]
-    self.categorical_features = [x for x in self.categorical_features\
-                                 if x in self.df.columns]
-
   def export_artifacts(self):
     """
     Use pickle to export the artifact objects to the artifacts folder.
@@ -160,8 +141,6 @@ class Preprocessor:
       self.scale_features()
     if 'oh_encode_cat' in self.graph_preprocess and self.oh_encoder is not None:
       self.one_hot_encode()
-    
-    self.feature_selection()
     if self.execution_mode == 'train':
       self.export_artifacts()
     return self.df
