@@ -1443,3 +1443,7 @@
 [27/Feb/2025 11:32:34] INFO [src.pipelines.hypertune_pipelines.run:99] Completed hyperparameter tunning pipeline
 [27/Feb/2025 11:36:59] ERROR [ipykernel.comm.comm_open:46] No such comm target registered: jupyter.widget.control
 [27/Feb/2025 11:36:59] WARNING [Comm.get_comm:246] No such comm: 2f6de501-c254-42f4-a283-ea07c6969a95
+[27/Feb/2025 12:54:32] ERROR [ipykernel.comm.comm_open:46] No such comm target registered: jupyter.widget.control
+[27/Feb/2025 12:54:32] WARNING [Comm.get_comm:246] No such comm: 7cc0aee8-c96a-42a3-900b-72180a6720ea
+[27/Feb/2025 13:15:18] ERROR [ipykernel.comm.comm_open:46] No such comm target registered: jupyter.widget.control
+[27/Feb/2025 13:15:18] WARNING [Comm.get_comm:246] No such comm: 9cbee9a9-392c-4a39-bd0f-40975953bb36
