@@ -1,0 +1,72 @@
+[27/Feb/2025 23:13:33] INFO [src.pipelines.training_pipelines.run:83] Starting training pipeline
+[27/Feb/2025 23:13:33] INFO [src.pipelines.training_pipelines.split_train_val:38] Splitting data into train and validation sets
+[27/Feb/2025 23:13:33] INFO [src.pipelines.training_pipelines.split_train_val:41] Completed data split
+[27/Feb/2025 23:13:33] INFO [src.pipelines.training_pipelines.preprocess_data:44] Starting data preprocessing
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:13:33] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:13:34] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:13:34] INFO [src.pipelines.training_pipelines.preprocess_data:68] Completed data preprocessing
+[27/Feb/2025 23:13:34] INFO [src.pipelines.training_pipelines.train_models:71] Starting model training
+[27/Feb/2025 23:13:34] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:13:34] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:13:38] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:13:38] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 2.057577141764795, 'mse': 7.434685992563798, 'rmse': 2.726662060572193, 'mape': 0.33002924448942933, 'r2': 0.686233464744116}
+[27/Feb/2025 23:13:38] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:13:41] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:13:41] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.7780228488305894, 'mse': 5.035018350836199, 'rmse': 2.2438846563128414, 'mape': 0.21812453532377885, 'r2': 0.787506793902014}
+[27/Feb/2025 23:13:41] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:13:47] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:13:47] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 2.0818066555700048, 'mse': 7.210748741112843, 'rmse': 2.685283735680988, 'mape': 0.298856917830017, 'r2': 0.695684303094622}
+[27/Feb/2025 23:13:47] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:13:49] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:13:49] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 2.1007901419818635, 'mse': 12.225557654400129, 'rmse': 3.496506492829683, 'mape': 0.18285718776260323, 'r2': 0.4840439972005631}
+[27/Feb/2025 23:13:49] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:13:50] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:13:50] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 1.8453667166374523, 'mse': 12.065203841156471, 'rmse': 3.4735002290422368, 'mape': 0.18174235328332272, 'r2': 0.4908114195835468}
+[27/Feb/2025 23:13:50] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:13:52] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:13:52] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 1.7555517596627712, 'mse': 10.943195686928052, 'rmse': 3.308050133678154, 'mape': 0.1593730076022684, 'r2': 0.5381636025046845}
+[27/Feb/2025 23:13:52] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:13:52] INFO [src.pipelines.training_pipelines.train_models:80] Completed model training
+[27/Feb/2025 23:13:52] INFO [src.pipelines.training_pipelines.run:87] Completed training pipeline

@@ -1,6 +1,8 @@
 from typing import Any, Tuple, List, Dict
 import pandas as pd
 from src.metrics.metrics import compute_metrics
+#import mlflow
+
 import logging
 logger = logging.getLogger(__name__)
 
@@ -26,6 +28,7 @@ def fit_model(model: Any,
 
   """
   logger.info(f'Fitting model {model_name}')
+  #mlflow.autolog()
   model.fit(train_data.drop(target, axis=1), train_data[target])
   y_train_pred = model.predict(train_data.drop(target, axis=1))
   y_val_pred = model.predict(validation_data.drop(target, axis=1))

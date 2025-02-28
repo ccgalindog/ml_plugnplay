@@ -1,0 +1,1443 @@
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:129] Creating combinated numerical features
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_19 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_0 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_1 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_2 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_3 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_4 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_5 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_6 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_7 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_8 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_9 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_10 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_11 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_12 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_13 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_14 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_15 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_16 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_17 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_18 interactions
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:148] Completed creating combinated numerical features
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_combinated_features:149] New number of features: 1160
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:19:26] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:19:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:19:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:19:28] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:19:29] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:19:30] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:19:31] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:19:32] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:19:34] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:19:35] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 13920
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 13920
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 13920
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:129] Creating combinated numerical features
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_0-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_1-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_2-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_3-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_4-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_5-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_6-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_7-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_8-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_9-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_10-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_11-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_12-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_13-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_14-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_15-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_16-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_17-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_18-feature_19 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_0 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_1 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_2 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_3 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_4 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_5 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_6 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_7 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_8 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_9 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_10 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_11 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_12 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_13 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_14 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_15 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_16 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_17 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:134] Creating features feature_19-feature_18 interactions
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:148] Completed creating combinated numerical features
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_combinated_features:149] New number of features: 1160
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:19:37] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:19:38] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:19:38] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:19:39] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:19:39] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:19:40] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:19:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:19:42] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:19:44] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:19:46] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:19:48] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:19:50] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:19:50] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 13920
+[27/Feb/2025 23:19:50] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:19:50] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:19:50] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 13920
+[27/Feb/2025 23:19:50] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:19:50] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 13920
+[27/Feb/2025 23:19:50] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:19:50] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:21:05] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:21:05] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 1.8060351752087898, 'mse': 5.28482538341358, 'rmse': 2.2988748081210466, 'mape': 0.142854525136833, 'r2': 0.788488591541462}
+[27/Feb/2025 23:21:05] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:24:03] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:24:03] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.5815410461191248, 'mse': 4.046623622152355, 'rmse': 2.011622137020856, 'mape': 0.12854360156606298, 'r2': 0.8380444007650094}
+[27/Feb/2025 23:24:03] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:28:50] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:28:50] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 1.8843759690182444, 'mse': 5.765849528237441, 'rmse': 2.4012183424748033, 'mape': 0.153984906323955, 'r2': 0.7692368496213645}
+[27/Feb/2025 23:28:50] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:29:10] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:29:10] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 6.242786021094027, 'mse': 258.8876738368694, 'rmse': 16.089986756889186, 'mape': 0.5230357367915074, 'r2': -9.361306675836031}
+[27/Feb/2025 23:29:10] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:29:29] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:29:29] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 3.892876050510739, 'mse': 99.14693459446329, 'rmse': 9.95725537457302, 'mape': 0.3073647609343633, 'r2': -2.968098519629054}
+[27/Feb/2025 23:29:29] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:29:51] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:29:51] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 3.709001487850557, 'mse': 27.711742563855665, 'rmse': 5.2641943888743, 'mape': 0.28521740390884487, 'r2': -0.10909051393019897}
+[27/Feb/2025 23:29:51] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:29:51] INFO [src.pipelines.training_pipelines.run:83] Starting training pipeline
+[27/Feb/2025 23:29:51] INFO [src.pipelines.training_pipelines.split_train_val:38] Splitting data into train and validation sets
+[27/Feb/2025 23:29:51] INFO [src.pipelines.training_pipelines.split_train_val:41] Completed data split
+[27/Feb/2025 23:29:51] INFO [src.pipelines.training_pipelines.preprocess_data:44] Starting data preprocessing
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:29:51] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:29:51] INFO [src.pipelines.training_pipelines.preprocess_data:68] Completed data preprocessing
+[27/Feb/2025 23:29:51] INFO [src.pipelines.training_pipelines.train_models:71] Starting model training
+[27/Feb/2025 23:29:51] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:29:51] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:29:54] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:29:54] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 1.912291086151005, 'mse': 5.696731639073304, 'rmse': 2.386782696240549, 'mape': 0.1673606868030355, 'r2': 0.761718108124849}
+[27/Feb/2025 23:29:54] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:29:58] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:29:58] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.5673900523132192, 'mse': 3.7046326397090694, 'rmse': 1.9247422268213137, 'mape': 0.1345808255430291, 'r2': 0.845043275685019}
+[27/Feb/2025 23:29:58] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:30:04] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:30:04] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 2.0220060378020905, 'mse': 6.390756077572691, 'rmse': 2.5279944773619842, 'mape': 0.1768718472872024, 'r2': 0.7326885756331052}
+[27/Feb/2025 23:30:04] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:30:05] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:30:05] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 1.9705273875122131, 'mse': 7.788062675372771, 'rmse': 2.7907100665194102, 'mape': 0.1632991218444882, 'r2': 0.6742422803276102}
+[27/Feb/2025 23:30:05] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:30:07] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:30:07] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 1.6871207234238639, 'mse': 4.900096963481866, 'rmse': 2.213616263827556, 'mape': 0.14408749421701697, 'r2': 0.7950396036173335}
+[27/Feb/2025 23:30:07] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:30:09] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:30:09] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 1.5556781718954293, 'mse': 4.020255036451411, 'rmse': 2.0050573648779757, 'mape': 0.13062351020616927, 'r2': 0.8318414774296655}
+[27/Feb/2025 23:30:09] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.train_models:80] Completed model training
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.run:87] Completed training pipeline
+[27/Feb/2025 23:30:09] INFO [src.train.cross_validation.cross_validate:36] Starting cross-validation
+[27/Feb/2025 23:30:09] INFO [src.train.cross_validation.cross_validate:44] Running Fold 0
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.run:83] Starting training pipeline
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.split_train_val:38] Splitting data into train and validation sets
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.split_train_val:41] Completed data split
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.preprocess_data:44] Starting data preprocessing
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:30:09] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.preprocess_data:68] Completed data preprocessing
+[27/Feb/2025 23:30:09] INFO [src.pipelines.training_pipelines.train_models:71] Starting model training
+[27/Feb/2025 23:30:09] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:30:09] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:30:12] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:30:12] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 2.1760797650084713, 'mse': 7.070951276034779, 'rmse': 2.659126036131943, 'mape': 0.2170070731404344, 'r2': 0.7364295585647829}
+[27/Feb/2025 23:30:12] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:30:15] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:30:15] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.7675018459858136, 'mse': 5.051609420829795, 'rmse': 2.2475785683329947, 'mape': 0.16659380652927042, 'r2': 0.8117007354414894}
+[27/Feb/2025 23:30:15] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:30:21] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:30:21] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 2.270317846233817, 'mse': 7.743463061798169, 'rmse': 2.782707864975799, 'mape': 0.2358785125211192, 'r2': 0.7113616120715293}
+[27/Feb/2025 23:30:21] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:30:23] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:30:23] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 2.1510930473801415, 'mse': 9.548292791975879, 'rmse': 3.090031195955128, 'mape': 0.19518503473094756, 'r2': 0.6440863968808083}
+[27/Feb/2025 23:30:23] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:30:25] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:30:25] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 1.7403552747589046, 'mse': 5.164976322696022, 'rmse': 2.272658426313999, 'mape': 0.1510447188592859, 'r2': 0.807474972428485}
+[27/Feb/2025 23:30:25] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:30:27] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:30:27] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 1.6889970771994953, 'mse': 4.776503504096974, 'rmse': 2.1855213346240694, 'mape': 0.14901031258347336, 'r2': 0.82195533699142}
+[27/Feb/2025 23:30:27] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.train_models:80] Completed model training
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.run:87] Completed training pipeline
+[27/Feb/2025 23:30:27] INFO [src.train.cross_validation.cross_validate:44] Running Fold 1
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.run:83] Starting training pipeline
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.split_train_val:38] Splitting data into train and validation sets
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.split_train_val:41] Completed data split
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.preprocess_data:44] Starting data preprocessing
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:30:27] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.preprocess_data:68] Completed data preprocessing
+[27/Feb/2025 23:30:27] INFO [src.pipelines.training_pipelines.train_models:71] Starting model training
+[27/Feb/2025 23:30:27] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:30:27] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:30:29] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:30:29] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 2.0997837489518147, 'mse': 6.7741610321375365, 'rmse': 2.602721850705053, 'mape': 0.16643362669101447, 'r2': 0.718661350151164}
+[27/Feb/2025 23:30:29] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:30:33] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:30:33] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.674495181240602, 'mse': 4.44600850148583, 'rmse': 2.108556022847349, 'mape': 0.1293288592592839, 'r2': 0.8153521855931171}
+[27/Feb/2025 23:30:33] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:30:39] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:30:39] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 2.1544840807229813, 'mse': 7.113594824914863, 'rmse': 2.6671323223482677, 'mape': 0.1736796178270807, 'r2': 0.7045642767984642}
+[27/Feb/2025 23:30:39] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:30:41] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:30:41] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 2.340476399363115, 'mse': 16.923236771697173, 'rmse': 4.11378618448956, 'mape': 0.17959379235044923, 'r2': 0.2971586353153005}
+[27/Feb/2025 23:30:41] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:30:43] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:30:43] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 1.8281844403566097, 'mse': 12.302935480141539, 'rmse': 3.507554059475283, 'mape': 0.1328858708485209, 'r2': 0.489045028492897}
+[27/Feb/2025 23:30:43] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:39:21] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:39:21] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 1.7076433883109388, 'mse': 10.499366141790988, 'rmse': 3.2402725412827524, 'mape': 0.12756440174173686, 'r2': 0.5639493244127995}
+[27/Feb/2025 23:39:21] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.train_models:80] Completed model training
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.run:87] Completed training pipeline
+[27/Feb/2025 23:39:21] INFO [src.train.cross_validation.cross_validate:44] Running Fold 2
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.run:83] Starting training pipeline
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.split_train_val:38] Splitting data into train and validation sets
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.split_train_val:41] Completed data split
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.preprocess_data:44] Starting data preprocessing
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:39:21] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.preprocess_data:68] Completed data preprocessing
+[27/Feb/2025 23:39:21] INFO [src.pipelines.training_pipelines.train_models:71] Starting model training
+[27/Feb/2025 23:39:21] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:39:21] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:39:25] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:39:25] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 1.986152524832849, 'mse': 6.676042546570313, 'rmse': 2.5838038908884537, 'mape': 0.2556794330021468, 'r2': 0.756161036899286}
+[27/Feb/2025 23:39:25] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:39:29] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:39:29] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.7251870036498531, 'mse': 5.09490849505298, 'rmse': 2.257190398493884, 'mape': 0.23672724151658503, 'r2': 0.8139111313535645}
+[27/Feb/2025 23:39:29] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:39:36] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:39:36] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 2.174937603107521, 'mse': 7.800542223467569, 'rmse': 2.7929450806393543, 'mape': 0.33450838137350297, 'r2': 0.7150892742031992}
+[27/Feb/2025 23:39:36] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:39:37] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:39:37] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 1.9430306999063105, 'mse': 7.386107548754128, 'rmse': 2.717739418846871, 'mape': 0.21948877762585756, 'r2': 0.730226283988588}
+[27/Feb/2025 23:39:37] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:39:39] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:39:39] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 1.8378297790117664, 'mse': 6.867931332435385, 'rmse': 2.6206738317530824, 'mape': 0.21089661337252524, 'r2': 0.7491523993345013}
+[27/Feb/2025 23:39:39] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:39:41] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:39:41] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 1.774212959491506, 'mse': 6.0247666122181425, 'rmse': 2.454540000125918, 'mape': 0.1804716709655912, 'r2': 0.7799485498483258}
+[27/Feb/2025 23:39:41] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.train_models:80] Completed model training
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.run:87] Completed training pipeline
+[27/Feb/2025 23:39:41] INFO [src.train.cross_validation.cross_validate:44] Running Fold 3
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.run:83] Starting training pipeline
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.split_train_val:38] Splitting data into train and validation sets
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.split_train_val:41] Completed data split
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.preprocess_data:44] Starting data preprocessing
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:39:41] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.preprocess_data:68] Completed data preprocessing
+[27/Feb/2025 23:39:41] INFO [src.pipelines.training_pipelines.train_models:71] Starting model training
+[27/Feb/2025 23:39:41] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:39:41] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:39:47] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:39:47] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 2.114248331500069, 'mse': 7.483638300446943, 'rmse': 2.7356239325694864, 'mape': 0.19600193365876575, 'r2': 0.6764214451361614}
+[27/Feb/2025 23:39:47] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:39:50] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:39:50] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.7736891638532213, 'mse': 5.533713620447015, 'rmse': 2.352384666768387, 'mape': 0.15159322024604904, 'r2': 0.7607325495370819}
+[27/Feb/2025 23:39:50] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:39:57] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:39:57] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 2.145983411798651, 'mse': 7.958569338198015, 'rmse': 2.8210936422242376, 'mape': 0.18504929690358446, 'r2': 0.6558863133345221}
+[27/Feb/2025 23:39:57] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:39:58] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:39:58] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 2.2542742521559767, 'mse': 10.889648890052332, 'rmse': 3.299946801094274, 'mape': 0.1882964340473007, 'r2': 0.5291519032116645}
+[27/Feb/2025 23:39:58] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:40:00] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:40:00] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 1.8065529534873122, 'mse': 5.223510753110135, 'rmse': 2.2855001100656582, 'mape': 0.16023667447827158, 'r2': 0.7741451426499122}
+[27/Feb/2025 23:40:00] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:40:02] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:40:02] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 1.7596669343813265, 'mse': 5.113668067342053, 'rmse': 2.2613420942754443, 'mape': 0.158404796448945, 'r2': 0.7788945354046469}
+[27/Feb/2025 23:40:02] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.train_models:80] Completed model training
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.run:87] Completed training pipeline
+[27/Feb/2025 23:40:02] INFO [src.train.cross_validation.cross_validate:44] Running Fold 4
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.run:83] Starting training pipeline
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.split_train_val:38] Splitting data into train and validation sets
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.split_train_val:41] Completed data split
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.preprocess_data:44] Starting data preprocessing
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:40:02] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.preprocess_data:68] Completed data preprocessing
+[27/Feb/2025 23:40:02] INFO [src.pipelines.training_pipelines.train_models:71] Starting model training
+[27/Feb/2025 23:40:02] INFO [src.train.training.train_multiple_models:70] Training models
+[27/Feb/2025 23:40:02] INFO [src.train.training.fit_model:30] Fitting model xgboost
+[27/Feb/2025 23:40:05] INFO [src.train.training.fit_model:46] Model xgboost fitted
+[27/Feb/2025 23:40:05] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'xgboost', 'dataset': 'validation', 'mae': 2.128079882131199, 'mse': 6.838952016321599, 'rmse': 2.615139005162364, 'mape': 0.2237598141072535, 'r2': 0.679610736386806}
+[27/Feb/2025 23:40:05] INFO [src.train.training.fit_model:30] Fitting model lightgbm
+[27/Feb/2025 23:40:09] INFO [src.train.training.fit_model:46] Model lightgbm fitted
+[27/Feb/2025 23:40:09] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lightgbm', 'dataset': 'validation', 'mae': 1.7939763418960992, 'mse': 5.112647984635629, 'rmse': 2.261116534952506, 'mape': 0.2224734865013279, 'r2': 0.7604841328025687}
+[27/Feb/2025 23:40:09] INFO [src.train.training.fit_model:30] Fitting model random_forest
+[27/Feb/2025 23:40:16] INFO [src.train.training.fit_model:46] Model random_forest fitted
+[27/Feb/2025 23:40:16] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'random_forest', 'dataset': 'validation', 'mae': 2.127026016981816, 'mse': 6.5915006321836085, 'rmse': 2.567391795613519, 'mape': 0.2753367612654218, 'r2': 0.6912032678967256}
+[27/Feb/2025 23:40:16] INFO [src.train.training.fit_model:30] Fitting model linear_regression
+[27/Feb/2025 23:40:18] INFO [src.train.training.fit_model:46] Model linear_regression fitted
+[27/Feb/2025 23:40:18] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'linear_regression', 'dataset': 'validation', 'mae': 2.1456593844575673, 'mse': 13.219959902240324, 'rmse': 3.635926278438594, 'mape': 0.21764211431992728, 'r2': 0.38067510812089966}
+[27/Feb/2025 23:40:18] INFO [src.train.training.fit_model:30] Fitting model ridge
+[27/Feb/2025 23:40:19] INFO [src.train.training.fit_model:46] Model ridge fitted
+[27/Feb/2025 23:40:19] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'ridge', 'dataset': 'validation', 'mae': 1.7746105467688367, 'mse': 5.284061994242574, 'rmse': 2.2987087667302646, 'mape': 0.21183019334507996, 'r2': 0.7524537784178784}
+[27/Feb/2025 23:40:19] INFO [src.train.training.fit_model:30] Fitting model lasso
+[27/Feb/2025 23:40:21] INFO [src.train.training.fit_model:46] Model lasso fitted
+[27/Feb/2025 23:40:21] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lasso', 'dataset': 'validation', 'mae': 1.5919493532042308, 'mse': 4.361444764087098, 'rmse': 2.088407231381633, 'mape': 0.15242211336146289, 'r2': 0.7956762859396299}
+[27/Feb/2025 23:40:21] INFO [src.train.training.train_multiple_models:83] Completed model training
+[27/Feb/2025 23:40:21] INFO [src.pipelines.training_pipelines.train_models:80] Completed model training
+[27/Feb/2025 23:40:21] INFO [src.pipelines.training_pipelines.run:87] Completed training pipeline
+[27/Feb/2025 23:40:21] INFO [src.train.cross_validation.cross_validate:66] Completed cross-validation
+[27/Feb/2025 23:40:21] INFO [src.pipelines.hypertune_pipelines.run:95] Starting hyperparameter tunning pipeline
+[27/Feb/2025 23:40:21] INFO [src.pipelines.hypertune_pipelines.split_train_val:46] Splitting data into train and validation sets
+[27/Feb/2025 23:40:21] INFO [src.pipelines.hypertune_pipelines.preprocess_data:51] Starting data preprocessing
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.export_artifacts:179] Exporting artifacts
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.export_artifacts:181] Completed exporting artifacts
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:190] Starting data preprocessing
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:191] Initial number of features: 20
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:105] Creating individual numerical features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating log10 feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sqrt feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating square feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arcsin feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arccos feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating arctan feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sin feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating cos feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating tan feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:109] Creating sinc feature
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:116] Completed creating individual numerical features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.create_individual_features:117] New number of features: 240
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.feature_selection:160] Selecting features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.feature_selection:169] Completed selecting features
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.feature_selection:170] New number of features: 240
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:207] Completed data preprocessing
+[27/Feb/2025 23:40:21] INFO [src.preprocessing.preprocessing.preprocess:208] Final number of features: 240
+[27/Feb/2025 23:40:21] INFO [src.pipelines.hypertune_pipelines.preprocess_data:75] Completed data preprocessing
+[27/Feb/2025 23:40:21] INFO [src.pipelines.hypertune_pipelines.hypertune:79] Starting hyperparameter tunning
+[27/Feb/2025 23:40:21] INFO [src.hypertune.hypertuning.hyperparameter_tunning:72] Starting hyperparameter tunning
+[27/Feb/2025 23:40:21] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000792 seconds
+[27/Feb/2025 23:40:21] INFO [hyperopt.tpe.suggest:900] TPE using 0 trials
+[27/Feb/2025 23:40:21] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:24] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:24] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 2.7269087338056, 'mse': 11.354900249288036, 'rmse': 3.369703288019293, 'mape': 0.24368422913658994, 'r2': 0.515718159843556}
+[27/Feb/2025 23:40:24] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 2.7269087338056, 'mse': 11.354900249288036, 'rmse': 3.369703288019293, 'mape': 0.24368422913658994, 'r2': 0.515718159843556}
+[27/Feb/2025 23:40:24] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000867 seconds
+[27/Feb/2025 23:40:24] INFO [hyperopt.tpe.suggest:900] TPE using 1/1 trials with best loss 11.354900
+[27/Feb/2025 23:40:24] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:27] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:27] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 21.95028543820006, 'mse': 505.96963843627225, 'rmse': 22.4937688802093, 'mape': 1.5458673824791191, 'r2': -20.579397633244056}
+[27/Feb/2025 23:40:27] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 21.95028543820006, 'mse': 505.96963843627225, 'rmse': 22.4937688802093, 'mape': 1.5458673824791191, 'r2': -20.579397633244056}
+[27/Feb/2025 23:40:27] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.001169 seconds
+[27/Feb/2025 23:40:27] INFO [hyperopt.tpe.suggest:900] TPE using 2/2 trials with best loss 11.354900
+[27/Feb/2025 23:40:27] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:31] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:31] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 3.2700964801708183, 'mse': 15.573575478671648, 'rmse': 3.94633696973176, 'mape': 0.29028526942310134, 'r2': 0.33579339095477556}
+[27/Feb/2025 23:40:31] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 3.2700964801708183, 'mse': 15.573575478671648, 'rmse': 3.94633696973176, 'mape': 0.29028526942310134, 'r2': 0.33579339095477556}
+[27/Feb/2025 23:40:31] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000675 seconds
+[27/Feb/2025 23:40:31] INFO [hyperopt.tpe.suggest:900] TPE using 3/3 trials with best loss 11.354900
+[27/Feb/2025 23:40:31] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:34] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:34] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 4.056373147003034, 'mse': 23.56567864707521, 'rmse': 4.854449366001793, 'mape': 0.35285800722347427, 'r2': -0.005066532438853688}
+[27/Feb/2025 23:40:34] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 4.056373147003034, 'mse': 23.56567864707521, 'rmse': 4.854449366001793, 'mape': 0.35285800722347427, 'r2': -0.005066532438853688}
+[27/Feb/2025 23:40:34] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000844 seconds
+[27/Feb/2025 23:40:34] INFO [hyperopt.tpe.suggest:900] TPE using 4/4 trials with best loss 11.354900
+[27/Feb/2025 23:40:34] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:37] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:37] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 18.989731174797402, 'mse': 381.85009781301335, 'rmse': 19.540985077856575, 'mape': 1.3273900695535157, 'r2': -15.285750114308499}
+[27/Feb/2025 23:40:37] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 18.989731174797402, 'mse': 381.85009781301335, 'rmse': 19.540985077856575, 'mape': 1.3273900695535157, 'r2': -15.285750114308499}
+[27/Feb/2025 23:40:37] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000826 seconds
+[27/Feb/2025 23:40:37] INFO [hyperopt.tpe.suggest:900] TPE using 5/5 trials with best loss 11.354900
+[27/Feb/2025 23:40:37] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:40] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:40] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 2.835031122862147, 'mse': 12.138960551814444, 'rmse': 3.4841011110205233, 'mape': 0.25251542202104027, 'r2': 0.4822783094032216}
+[27/Feb/2025 23:40:40] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 2.835031122862147, 'mse': 12.138960551814444, 'rmse': 3.4841011110205233, 'mape': 0.25251542202104027, 'r2': 0.4822783094032216}
+[27/Feb/2025 23:40:40] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000845 seconds
+[27/Feb/2025 23:40:40] INFO [hyperopt.tpe.suggest:900] TPE using 6/6 trials with best loss 11.354900
+[27/Feb/2025 23:40:40] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:43] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:43] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 3.1446257822175308, 'mse': 14.5632868741326, 'rmse': 3.81618747890255, 'mape': 0.27975360533369215, 'r2': 0.3788817857230109}
+[27/Feb/2025 23:40:43] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 3.1446257822175308, 'mse': 14.5632868741326, 'rmse': 3.81618747890255, 'mape': 0.27975360533369215, 'r2': 0.3788817857230109}
+[27/Feb/2025 23:40:43] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000890 seconds
+[27/Feb/2025 23:40:43] INFO [hyperopt.tpe.suggest:900] TPE using 7/7 trials with best loss 11.354900
+[27/Feb/2025 23:40:43] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:46] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:46] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 17.767060996255786, 'mse': 331.59051985734084, 'rmse': 18.209627120216954, 'mape': 1.252743932606839, 'r2': -13.142199720778143}
+[27/Feb/2025 23:40:46] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 17.767060996255786, 'mse': 331.59051985734084, 'rmse': 18.209627120216954, 'mape': 1.252743932606839, 'r2': -13.142199720778143}
+[27/Feb/2025 23:40:46] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.001014 seconds
+[27/Feb/2025 23:40:46] INFO [hyperopt.tpe.suggest:900] TPE using 8/8 trials with best loss 11.354900
+[27/Feb/2025 23:40:46] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:50] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:50] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 18.237298381494334, 'mse': 350.47568970411686, 'rmse': 18.720995959192898, 'mape': 1.2820612523371628, 'r2': -13.947644471879071}
+[27/Feb/2025 23:40:50] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 18.237298381494334, 'mse': 350.47568970411686, 'rmse': 18.720995959192898, 'mape': 1.2820612523371628, 'r2': -13.947644471879071}
+[27/Feb/2025 23:40:50] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000981 seconds
+[27/Feb/2025 23:40:50] INFO [hyperopt.tpe.suggest:900] TPE using 9/9 trials with best loss 11.354900
+[27/Feb/2025 23:40:50] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:53] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:53] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 2.192704845858244, 'mse': 7.884987564000727, 'rmse': 2.808022002050683, 'mape': 0.19278542552043643, 'r2': 0.6637085132170688}
+[27/Feb/2025 23:40:53] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 2.192704845858244, 'mse': 7.884987564000727, 'rmse': 2.808022002050683, 'mape': 0.19278542552043643, 'r2': 0.6637085132170688}
+[27/Feb/2025 23:40:53] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.001164 seconds
+[27/Feb/2025 23:40:53] INFO [hyperopt.tpe.suggest:900] TPE using 10/10 trials with best loss 7.884988
+[27/Feb/2025 23:40:53] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:40:56] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:40:56] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 3.9248928122635567, 'mse': 21.991197314232473, 'rmse': 4.689477296483316, 'mape': 0.3407567163948494, 'r2': 0.062084450874175245}
+[27/Feb/2025 23:40:56] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 3.9248928122635567, 'mse': 21.991197314232473, 'rmse': 4.689477296483316, 'mape': 0.3407567163948494, 'r2': 0.062084450874175245}
+[27/Feb/2025 23:40:56] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.001018 seconds
+[27/Feb/2025 23:40:56] INFO [hyperopt.tpe.suggest:900] TPE using 11/11 trials with best loss 7.884988
+[27/Feb/2025 23:40:56] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:00] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:00] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 3.875845890902254, 'mse': 21.370942523421387, 'rmse': 4.622871674989626, 'mape': 0.33604704637229094, 'r2': 0.08853806339962889}
+[27/Feb/2025 23:41:00] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 3.875845890902254, 'mse': 21.370942523421387, 'rmse': 4.622871674989626, 'mape': 0.33604704637229094, 'r2': 0.08853806339962889}
+[27/Feb/2025 23:41:00] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.001153 seconds
+[27/Feb/2025 23:41:00] INFO [hyperopt.tpe.suggest:900] TPE using 12/12 trials with best loss 7.884988
+[27/Feb/2025 23:41:00] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:03] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:03] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 4.056373147003034, 'mse': 23.56567864707521, 'rmse': 4.854449366001793, 'mape': 0.35285800722347427, 'r2': -0.005066532438853688}
+[27/Feb/2025 23:41:03] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 4.056373147003034, 'mse': 23.56567864707521, 'rmse': 4.854449366001793, 'mape': 0.35285800722347427, 'r2': -0.005066532438853688}
+[27/Feb/2025 23:41:03] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000858 seconds
+[27/Feb/2025 23:41:03] INFO [hyperopt.tpe.suggest:900] TPE using 13/13 trials with best loss 7.884988
+[27/Feb/2025 23:41:03] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:06] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:06] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 21.935064238836844, 'mse': 504.79390613728646, 'rmse': 22.467619058041876, 'mape': 1.5462387400752764, 'r2': -20.529253132739097}
+[27/Feb/2025 23:41:06] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 21.935064238836844, 'mse': 504.79390613728646, 'rmse': 22.467619058041876, 'mape': 1.5462387400752764, 'r2': -20.529253132739097}
+[27/Feb/2025 23:41:06] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.001122 seconds
+[27/Feb/2025 23:41:06] INFO [hyperopt.tpe.suggest:900] TPE using 14/14 trials with best loss 7.884988
+[27/Feb/2025 23:41:06] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:10] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:10] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 2.503290276105858, 'mse': 9.837511807709188, 'rmse': 3.136480799831108, 'mape': 0.22356215757357667, 'r2': 0.5804341547520977}
+[27/Feb/2025 23:41:10] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 2.503290276105858, 'mse': 9.837511807709188, 'rmse': 3.136480799831108, 'mape': 0.22356215757357667, 'r2': 0.5804341547520977}
+[27/Feb/2025 23:41:10] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000899 seconds
+[27/Feb/2025 23:41:10] INFO [hyperopt.tpe.suggest:900] TPE using 15/15 trials with best loss 7.884988
+[27/Feb/2025 23:41:10] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:13] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:13] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 21.95169496887367, 'mse': 505.95188811728696, 'rmse': 22.493374315946618, 'mape': 1.5462828774178203, 'r2': -20.57864058941691}
+[27/Feb/2025 23:41:13] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 21.95169496887367, 'mse': 505.95188811728696, 'rmse': 22.493374315946618, 'mape': 1.5462828774178203, 'r2': -20.57864058941691}
+[27/Feb/2025 23:41:13] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000812 seconds
+[27/Feb/2025 23:41:13] INFO [hyperopt.tpe.suggest:900] TPE using 16/16 trials with best loss 7.884988
+[27/Feb/2025 23:41:13] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:16] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:16] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 2.920680136794103, 'mse': 12.77499601286269, 'rmse': 3.574212642367923, 'mape': 0.26059007938357037, 'r2': 0.45515165776218147}
+[27/Feb/2025 23:41:16] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 2.920680136794103, 'mse': 12.77499601286269, 'rmse': 3.574212642367923, 'mape': 0.26059007938357037, 'r2': 0.45515165776218147}
+[27/Feb/2025 23:41:16] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000887 seconds
+[27/Feb/2025 23:41:16] INFO [hyperopt.tpe.suggest:900] TPE using 17/17 trials with best loss 7.884988
+[27/Feb/2025 23:41:16] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:19] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:19] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 21.93641265797064, 'mse': 505.43733939348095, 'rmse': 22.481933622210544, 'mape': 1.5441839087727163, 'r2': -20.55669529731005}
+[27/Feb/2025 23:41:19] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 21.93641265797064, 'mse': 505.43733939348095, 'rmse': 22.481933622210544, 'mape': 1.5441839087727163, 'r2': -20.55669529731005}
+[27/Feb/2025 23:41:19] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.001030 seconds
+[27/Feb/2025 23:41:19] INFO [hyperopt.tpe.suggest:900] TPE using 18/18 trials with best loss 7.884988
+[27/Feb/2025 23:41:19] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:22] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:22] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 21.95598040272435, 'mse': 506.1229422417964, 'rmse': 22.49717631708025, 'mape': 1.5465842291893868, 'r2': -20.585935977695552}
+[27/Feb/2025 23:41:22] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 21.95598040272435, 'mse': 506.1229422417964, 'rmse': 22.49717631708025, 'mape': 1.5465842291893868, 'r2': -20.585935977695552}
+[27/Feb/2025 23:41:22] INFO [hyperopt.tpe.suggest:864] build_posterior_wrapper took 0.000838 seconds
+[27/Feb/2025 23:41:22] INFO [hyperopt.tpe.suggest:900] TPE using 19/19 trials with best loss 7.884988
+[27/Feb/2025 23:41:22] INFO [src.train.training.fit_model:30] Fitting model lgbm
+[27/Feb/2025 23:41:25] INFO [src.train.training.fit_model:46] Model lgbm fitted
+[27/Feb/2025 23:41:25] INFO [src.train.training.fit_model:47] Model metrics: {'model': 'lgbm', 'dataset': 'validation', 'mae': 4.056373147003034, 'mse': 23.56567864707521, 'rmse': 4.854449366001793, 'mape': 0.35285800722347427, 'r2': -0.005066532438853688}
+[27/Feb/2025 23:41:25] INFO [src.hypertune.hypertuning.objective_score:41] Model metrics: {'mae': 4.056373147003034, 'mse': 23.56567864707521, 'rmse': 4.854449366001793, 'mape': 0.35285800722347427, 'r2': -0.005066532438853688}
+[27/Feb/2025 23:41:25] INFO [src.hypertune.hypertuning.hyperparameter_tunning:88] Best trial: {'state': 2, 'tid': 9, 'spec': None, 'result': {'loss': 7.884987564000727, 'status': 'ok'}, 'misc': {'tid': 9, 'cmd': ('domain_attachment', 'FMinIter_Domain'), 'workdir': None, 'idxs': {'boosting_type': [9], 'colsample_bytree': [9], 'max_depth': [9], 'num_leaves': [9], 'reg_alpha': [9], 'reg_lambda': [9]}, 'vals': {'boosting_type': [0], 'colsample_bytree': [0.6852279340179045], 'max_depth': [149.0], 'num_leaves': [525.0], 'reg_alpha': [63.61983523606229], 'reg_lambda': [343.9529944500177]}}, 'exp_key': None, 'owner': None, 'version': 0, 'book_time': datetime.datetime(2025, 2, 28, 4, 40, 50, 222000), 'refresh_time': datetime.datetime(2025, 2, 28, 4, 40, 53, 417000)}
+[27/Feb/2025 23:41:25] INFO [src.hypertune.hypertuning.hyperparameter_tunning:89] Completed hyperparameter tunning
+[27/Feb/2025 23:41:25] INFO [src.pipelines.hypertune_pipelines.hypertune:92] Completed hyperparameter tunning
+[27/Feb/2025 23:41:25] INFO [src.pipelines.hypertune_pipelines.run:99] Completed hyperparameter tunning pipeline
